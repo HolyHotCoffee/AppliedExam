@@ -4,24 +4,10 @@ structure for the RNN model.
 """
 
 import pandas as pd
-import tensorflow as tf
 import numpy as np
-
 import tensorflow as tf
-import numpy as np
-import pandas as pd
-from keras.callbacks import EarlyStopping
-from keras import regularizers
-from keras.layers import Embedding, LSTM, Dense, Dropout, LayerNormalization
-from sklearn.model_selection import train_test_split
-import re
-from collections import Counter
 import matplotlib.pyplot as plt
-from sklearn.feature_extraction.text import CountVectorizer
 import wandb
-from wandb.keras import WandbCallback
-from tensorflow.keras.optimizers.schedules import ExponentialDecay
-from tensorflow.keras.callbacks import ModelCheckpoint
 
 
 # Build RNN Model
